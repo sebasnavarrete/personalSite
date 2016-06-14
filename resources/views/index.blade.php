@@ -19,7 +19,7 @@
             </div>
         @endif
         <div class="intro-sub">SEBASTIAN NAVARRETE</div>
-        <h1>SOFTWARE <span>DEVELOPER</span></h1>
+        <h1>DESARROLLADOR DE <span>SOFTWARE</span></h1>
 
         <p>Ingeniero de Sistemas proactivo, creativo, responsable y comprometido <br> Desarrollador Front-end &amp; Back-end y aplicando las mejores practicas  <br> Siempre buscando soluciones óptimas.</p>
 
@@ -106,12 +106,13 @@
                         <li>GIT</li>
                         <li>Responsive Web Design - Web Performance</li>
                         <li>Linux</li>
+                        <li>Ionic</li>
                     </ul>
                 </div>
 
                 <div class="download-button">
                     <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Enviar Mensaje</a>
-                    <a target="_blank" class="btn btn-primary btn-lg" href="public/assets/hv.pdf"><i class="fa fa-download"></i>Descargar Hoja de Vida</a>
+                    {{--<a target="_blank" class="btn btn-primary btn-lg" href="public/assets/hv.pdf"><i class="fa fa-download"></i>Descargar Hoja de Vida</a>--}}
                 </div>
             </div>
 
@@ -391,7 +392,6 @@
                         <div class="portfolio">
                             <div class="tt-overlay"></div>
                             <div class="links">
-                                <a class="image-link" href="public/assets/images/parnam.png"><i class="fa fa-search-plus"></i></a>
                                 <a target="_blank" href="http://parnam.com.co/es/"><i class="fa fa-link"></i></a>
                             </div><!-- /.links -->
                             {!! HTML::image("public/assets/images/parnam.png") !!}
@@ -406,12 +406,39 @@
                         <div class="portfolio">
                             <div class="tt-overlay"></div>
                             <div class="links">
-                                <a class="image-link" href="public/assets/images/deled.png"><i class="fa fa-search-plus"></i></a>
                                 <a target="_blank" href="http://deledweb.com/"><i class="fa fa-link"></i></a>
                             </div><!-- /.links -->
                             {!! HTML::image("public/assets/images/deled.png") !!}
                             <div class="portfolio-info">
                                 <h3>Deled</h3>
+                            </div><!-- /.portfolio-info -->
+                        </div><!-- /.portfolio -->
+                    </div><!-- /.portfolio-bg -->
+                </div><!-- /.portfolio-item -->
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+                    <div class="portfolio-bg">
+                        <div class="portfolio">
+                            <div class="tt-overlay"></div>
+                            <div class="links">
+                                <a target="_blank" href="http://www.soluntech.com/"><i class="fa fa-link"></i></a>
+                            </div><!-- /.links -->
+                            {!! HTML::image("public/assets/images/soluntech.png") !!}
+                            <div class="portfolio-info">
+                                <h3>Soluntech</h3>
+                            </div><!-- /.portfolio-info -->
+                        </div><!-- /.portfolio -->
+                    </div><!-- /.portfolio-bg -->
+                </div><!-- /.portfolio-item -->
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+                    <div class="portfolio-bg">
+                        <div class="portfolio">
+                            <div class="tt-overlay"></div>
+                            <div class="links">
+                                <a target="_blank" href="http://www.2w.net/"><i class="fa fa-link"></i></a>
+                            </div><!-- /.links -->
+                            {!! HTML::image("public/assets/images/2w.png") !!}
+                            <div class="portfolio-info">
+                                <h3>2w - Agencia Digital</h3>
                             </div><!-- /.portfolio-info -->
                         </div><!-- /.portfolio -->
                     </div><!-- /.portfolio-bg -->
