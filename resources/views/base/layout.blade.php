@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hoja de Vida Sebastian Navarrete">
-    <meta name="author" content="Sebastian Navarrete">
+    <meta name="description" content="Desarrollo de software web y móvil con múltiples tecnologías">
+    <meta name="author" content="SN Software">
     <link rel="apple-touch-icon" sizes="57x57" href="public/assets/images/ico/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="public/assets/images/ico/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="public/assets/images/ico/apple-touch-icon-72x72.png">
@@ -23,11 +23,7 @@
     <link rel="manifest" href="public/assets/images/ico/manifest.json">
     <link rel="mask-icon" href="public/assets/images/ico/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="public/assets/images/ico/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="public/assets/images/ico/mstile-144x144.png">
-    <meta name="msapplication-config" content="public/assets/images/ico/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <title>Sebastian Navarrete</title>
+    <title>SN Software</title>
     <!-- Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
