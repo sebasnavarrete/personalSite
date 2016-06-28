@@ -6,7 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hoja de Vida Sebastian Navarrete">
     <meta name="author" content="Sebastian Navarrete">
-
+    <link rel="apple-touch-icon" sizes="57x57" href="public/assets/images/ico/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/assets/images/ico/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/assets/images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/assets/images/ico/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/assets/images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/assets/images/ico/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/assets/images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/assets/images/ico/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/assets/images/ico/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="public/assets/images/ico/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="public/assets/images/ico/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="public/assets/images/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="public/assets/images/ico/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="public/assets/images/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="public/assets/images/ico/manifest.json">
+    <link rel="mask-icon" href="public/assets/images/ico/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="public/assets/images/ico/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="public/assets/images/ico/mstile-144x144.png">
+    <meta name="msapplication-config" content="public/assets/images/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <title>Sebastian Navarrete</title>
     <!-- Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
@@ -30,11 +50,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="shortcut icon" href="assets/images/ico/favicon.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
+
 
 </head>
 
@@ -46,7 +62,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="copyright text-center">
-                <p>&copy; Sebastian Navarrete 2016.</p>
+                <p>&copy; SN Software 2016.</p>
             </div>
         </div>
     </div>
