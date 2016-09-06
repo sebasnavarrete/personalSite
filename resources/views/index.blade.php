@@ -82,6 +82,7 @@
                         <li><strong>Nacionalidad:</strong> Colombiano</li>
                         <li><strong>Teléfono:</strong> (+57) 3017583306</li>
                         <li><strong>Correo:</strong> info@sebastian-navarrete.com</li>
+                        <li><strong><a href="https://www.workana.com/freelancer/4a50061ebd0de10427fa75ec670d45da">Sitio Freelancer</a></strong></li>
                     </ul>
                 </div>
             </div> <!-- col-md-4 -->
@@ -207,7 +208,7 @@
                     <ul class="timeline">
                         <li class="timeline-inverted">
                             <div class="posted-date">
-                                <span class="month">2014</span>
+                                <span class="month">2013</span>
                             </div><!-- /posted-date -->
 
                             <div class="timeline-panel wow fadeInUp">
@@ -274,6 +275,7 @@
 
                                     <div class="timeline-body">
                                         <p>Desarrollo de soluciones web para diferentes sectores empresariales.</p>
+                                        <p><a href="https://www.workana.com/freelancer/4a50061ebd0de10427fa75ec670d45da" target="_blank">Sitio Web Freelancer</a></p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
                             </div><!-- /timeline-panel -->
@@ -315,6 +317,13 @@
                         </div>
                     </div><!-- /.progress -->
                 </div><!-- /.skill-progress -->
+                <div class="skill-progress">
+                    <div class="skill-title"><h6>Web Performance</h6></div>
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
             </div><!-- /.col-md-6 -->
 
             <div class="col-md-6">
@@ -333,7 +342,14 @@
                     </div><!-- /.progress -->
                 </div><!-- /.skill-progress -->
                 <div class="skill-progress">
-                    <div class="skill-title"><h6>Responsive Web Design - Web Performance</h6></div>
+                    <div class="skill-title"><h6>Responsive Web Design</h6></div>
+                    <div class="progress">
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
+                        </div>
+                    </div><!-- /.progress -->
+                </div><!-- /.skill-progress -->
+                <div class="skill-progress">
+                    <div class="skill-title"><h6>Ionic - Phonegap</h6></div>
                     <div class="progress">
                         <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span>95%</span>
                         </div>
@@ -364,7 +380,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <div class="chart" data-percent="80" data-color="3498db">
+                <div class="chart" data-percent="90" data-color="3498db">
                     <span class="percent"></span>
                     <div class="chart-text">
                         <span>Linux</span>
@@ -439,6 +455,20 @@
                             {!! HTML::image("public/assets/images/2w.png") !!}
                             <div class="portfolio-info">
                                 <h3>2w - Agencia Digital</h3>
+                            </div><!-- /.portfolio-info -->
+                        </div><!-- /.portfolio -->
+                    </div><!-- /.portfolio-bg -->
+                </div><!-- /.portfolio-item -->
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+                    <div class="portfolio-bg">
+                        <div class="portfolio">
+                            <div class="tt-overlay"></div>
+                            <div class="links">
+                                <a target="_blank" href="http://www.lyncros.com/es"><i class="fa fa-link"></i></a>
+                            </div><!-- /.links -->
+                            {!! HTML::image("public/assets/images/lyncros.png") !!}
+                            <div class="portfolio-info">
+                                <h3>Lyncros</h3>
                             </div><!-- /.portfolio-info -->
                         </div><!-- /.portfolio -->
                     </div><!-- /.portfolio-bg -->
