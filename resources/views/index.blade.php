@@ -19,9 +19,10 @@
             </div>
         @endif
         <div class="intro-sub">SEBASTIAN NAVARRETE</div>
-        <h1>DESARROLLADOR DE <span>SOFTWARE</span></h1>
+        <h1>EMPRENDEDOR</h1>
+        <h1><span>DESARROLLADOR DE SOFTWARE</span></h1>
 
-        <p>Ingeniero de Sistemas proactivo, creativo, responsable y comprometido <br> Desarrollador Front-end &amp; Back-end y aplicando las mejores practicas  <br> Siempre buscando soluciones óptimas.</p>
+        <p>Ingeniero de Sistemas proactivo, creativo, emprendedor, responsable y comprometido <br> Desarrollador Front-end &amp; Back-end y aplicando las mejores practicas  <br> Siempre buscando soluciones óptimas y dispuesto a aprender nuevas tecnologías.</p>
 
         <div class="social-icons">
             <ul class="list-inline">
@@ -60,6 +61,7 @@
                     <li><a href="#about">Sebastian</a></li>
                     <li><a href="#resume">Resumen</a></li>
                     <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#works">Clientes</a></li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
@@ -98,7 +100,7 @@
                     </p>
 
                     <ul class="list-check">
-                        <li>Laravel - Codeigniter</li>
+                        <li>Laravel - Codeigniter - Java</li>
                         <li>HTML5 - CSS3 - Bootstrap</li>
                         <li>PHP - MySQL - PostgreSQL</li>
                         <li>C# - .NET - SQL Server</li>
@@ -129,7 +131,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Disponible para proyectos Independientes</h2>
+                    <h2>Disponible para proyectos Independientes y Empresariales</h2>
                     <a href="#contact" class="btn btn-default">Enviar Mensaje</a>
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
@@ -252,7 +254,7 @@
                                 <div class="timeline-content">
                                     <div class="timeline-heading">
                                         <h3>Desarrollador - Practicante</h3>
-                                        <span>IBM</span>
+                                        <span>IBM DE COLOMBIA</span>
                                     </div><!-- /timeline-heading -->
 
                                     <div class="timeline-body">
@@ -269,12 +271,12 @@
                             <div class="timeline-panel wow fadeInUp">
                                 <div class="timeline-content">
                                     <div class="timeline-heading">
-                                        <h3>Desarrollador</h3>
+                                        <h3>Emprendedor - Fullstack Developer</h3>
                                         <span>Independiente</span>
                                     </div><!-- /timeline-heading -->
 
                                     <div class="timeline-body">
-                                        <p>Desarrollo de soluciones web para diferentes sectores empresariales.</p>
+                                        <p>Desarrollo de soluciones web y mobile para diferentes sectores empresariales.</p>
                                         <p><a href="https://www.workana.com/freelancer/4a50061ebd0de10427fa75ec670d45da" target="_blank">Sitio Web Freelancer</a></p>
                                     </div><!-- /timeline-body -->
                                 </div> <!-- /timeline-content -->
@@ -304,7 +306,7 @@
                 </div><!-- /.skill-progress -->
 
                 <div class="skill-progress">
-                    <div class="skill-title"><h6>HTML5 - CSS3 - Bootstrap</h6></div>
+                    <div class="skill-title"><h6>HTML5 - CSS3 - Bootstrap - Material Design</h6></div>
                     <div class="progress">
                         <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span>90%</span>
                         </div>
@@ -328,9 +330,9 @@
 
             <div class="col-md-6">
                 <div class="skill-progress">
-                    <div class="skill-title"><h6>C# - .NET - SQL Server</h6></div>
+                    <div class="skill-title"><h6>C# - .NET - SQL Server - JAVA</h6></div>
                     <div class="progress">
-                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
+                        <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span>80%</span>
                         </div>
                     </div><!-- /.progress -->
                 </div><!-- /.skill-progress -->
@@ -398,12 +400,14 @@
         <h2 class="section-title wow fadeInUp">Clientes</h2>
 
         <ul class="list-inline" id="filter">
+            <li><a class="active" data-group="all">Todos</a></li>
             <li><a class="active" data-group="web">Web</a></li>
+            <li><a class="active" data-group="mobile">Móvil</a></li>
         </ul>
 
         <div class="row">
             <div id="grid">
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "shop", "web"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "shop", "web", "mobile"]'>
                     <div class="portfolio-bg">
                         <div class="portfolio">
                             <div class="tt-overlay"></div>
@@ -431,7 +435,7 @@
                         </div><!-- /.portfolio -->
                     </div><!-- /.portfolio-bg -->
                 </div><!-- /.portfolio-item -->
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "mobile"]'>
                     <div class="portfolio-bg">
                         <div class="portfolio">
                             <div class="tt-overlay"></div>
@@ -459,7 +463,7 @@
                         </div><!-- /.portfolio -->
                     </div><!-- /.portfolio-bg -->
                 </div><!-- /.portfolio-item -->
-                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "mobile"]'>
                     <div class="portfolio-bg">
                         <div class="portfolio">
                             <div class="tt-overlay"></div>
@@ -469,6 +473,20 @@
                             {!! HTML::image("public/assets/images/lyncros.png") !!}
                             <div class="portfolio-info">
                                 <h3>Lyncros</h3>
+                            </div><!-- /.portfolio-info -->
+                        </div><!-- /.portfolio -->
+                    </div><!-- /.portfolio-bg -->
+                </div><!-- /.portfolio-item -->
+                <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "mobile"]'>
+                    <div class="portfolio-bg">
+                        <div class="portfolio">
+                            <div class="tt-overlay"></div>
+                            <div class="links">
+                                <a target="_blank" href="http://3dalcubo.com/"><i class="fa fa-link"></i></a>
+                            </div><!-- /.links -->
+                            {!! HTML::image("public/assets/images/3d.png") !!}
+                            <div class="portfolio-info">
+                                <h3>3D al cubo</h3>
                             </div><!-- /.portfolio-info -->
                         </div><!-- /.portfolio -->
                     </div><!-- /.portfolio-bg -->
