@@ -38,7 +38,7 @@
     {!! HTML::style('public/assets/css/style.css') !!}
     <!-- Responsive CSS -->
     {!! HTML::style('public/assets/css/responsive.css') !!}
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -60,6 +60,9 @@
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
+  function callbackCaptcha() {
+      $("#formContactSubmit").prop('disabled', false);
+  }
 </script>
 <noscript><p><img src="//analytics.sebastian-navarrete.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->

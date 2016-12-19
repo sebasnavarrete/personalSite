@@ -524,8 +524,8 @@
                             <label for="InputTextarea">Mensaje</label>
                             <textarea name="body" class="form-control" id="InputTextarea" rows="5" required=""></textarea>
                         </div>
-
-                        <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+                        <div data-callback="callbackCaptcha" class="g-recaptcha" data-sitekey="6LczJg8UAAAAACYkGYO1YsHNYmgzDNydAFidMAnF"></div>
+                        <button id="formContactSubmit" disabled type="submit" name="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
             </div><!-- /.col-md-6 -->
