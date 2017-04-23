@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6341517-1d92-403a-8903-b717cececab0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MailController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
     </list>
     <ignored path="sebasn.iws" />
@@ -28,12 +27,12 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="537" column="59" lean-forward="false" selection-start-line="537" selection-start-column="54" selection-end-line="537" selection-end-column="59" />
+            <state relative-caret-position="384">
+              <caret line="550" column="54" lean-forward="false" selection-start-line="550" selection-start-column="54" selection-end-line="550" selection-end-column="54" />
               <folding>
                 <element signature="e#3970#3990#0#HTML" expanded="true" />
                 <element signature="e#4171#4191#0#HTML" expanded="true" />
-                <element signature="e#28802#28822#0#HTML" expanded="true" />
+                <element signature="e#28793#28813#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +100,8 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/base/layout.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MailController.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -396,12 +395,12 @@
       <workItem from="1481843092252" duration="1593000" />
       <workItem from="1482149426600" duration="1872000" />
       <workItem from="1485976016077" duration="867000" />
-      <workItem from="1492963401327" duration="1706000" />
+      <workItem from="1492963401327" duration="1772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19762000" />
+    <option name="totallyTimeSpent" value="19828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -739,12 +738,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="537" column="59" lean-forward="false" selection-start-line="537" selection-start-column="54" selection-end-line="537" selection-end-column="59" />
+        <state relative-caret-position="384">
+          <caret line="550" column="54" lean-forward="false" selection-start-line="550" selection-start-column="54" selection-end-line="550" selection-end-column="54" />
           <folding>
             <element signature="e#3970#3990#0#HTML" expanded="true" />
             <element signature="e#4171#4191#0#HTML" expanded="true" />
-            <element signature="e#28802#28822#0#HTML" expanded="true" />
+            <element signature="e#28793#28813#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
