@@ -548,7 +548,7 @@
                         </div>
                         <div data-callback="callbackCaptcha" class="g-recaptcha"
                              data-sitekey="6LczJg8UAAAAACYkGYO1YsHNYmgzDNydAFidMAnF"></div>
-                        <button id="formContactSubmit" type="submit" name="submit" class="btn btn-primary">
+                        <button disabled id="formContactSubmit" type="submit" name="submit" class="btn btn-primary">
                             Enviar
                         </button>
                         </form>

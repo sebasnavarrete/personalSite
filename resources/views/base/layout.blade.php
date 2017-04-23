@@ -63,7 +63,6 @@
         ga('send', 'pageview');
 
     </script>
-    <!-- End Piwik Code -->
 
 </head>
 
@@ -103,6 +102,10 @@
 {!! HTML::script('public/assets/js/jquery.fitvids.js') !!}
 {!! HTML::script('public/assets/js/scripts.js') !!}
 <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-
+<script type="application/javascript">
+    function callbackCaptcha() {
+        $('#formContactSubmit').removeAttr('disabled');
+    }
+</script>
 </body>
 </html>
