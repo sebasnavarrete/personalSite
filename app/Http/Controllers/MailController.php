@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redirect;
+
 class MailController extends Controller
 {
     /**
@@ -30,6 +31,12 @@ class MailController extends Controller
     public function send(Request $request)
     {
         $data = $request->all();
+        $this->validate($request, [
+            'subject' => 'required',
+            'name' => 'required',
+            'email' => 'required',
+            'body' => 'required'
+        ]);
         Mail::send('emails.mensaje', $data, function ($message) use ($request) {
             $message->subject($request->subject);
             $message->to(env('CONTACT_MAIL'), env('CONTACT_NAME'));

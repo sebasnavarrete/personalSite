@@ -86,9 +86,11 @@
                         <ul>
                             <li><strong>Nombre:</strong> Sebastian Navarrete</li>
                             <li><strong>Nacionalidad:</strong> Colombiano</li>
-                            <li><strong>Teléfono:</strong> <a style="color: #000;" href="tel:+573134737213">(+57) 313 4737213</a></li>
+                            <li><strong>Teléfono:</strong> <a style="color: #000;" href="tel:+573134737213">(+57) 313
+                                    4737213</a></li>
                             <li><strong>Correo:</strong>
-                                <a style="color: #000;" href="mailto:info@sebastian-navarrete.com">info@sebastian-navarrete.com</a></li>
+                                <a style="color: #000;"
+                                   href="mailto:info@sebastian-navarrete.com">info@sebastian-navarrete.com</a></li>
                             <li><strong><a href="https://www.workana.com/freelancer/4a50061ebd0de10427fa75ec670d45da">Sitio
                                         Freelancer</a></strong></li>
                         </ul>
@@ -128,7 +130,7 @@
 
 
             </div> <!-- /.row -->
-        </div> 
+        </div>
     </section><!-- End About Section -->
 
 
@@ -529,20 +531,20 @@
                         {!! FORM::open(['route' => 'send', 'method' => 'post']) !!}
                         <div class="form-group">
                             <label for="InputName1">Nombre</label>
-                            <input type="text" name="name" class="form-control" id="InputName1" required="">
+                            <input type="text" name="name" class="form-control" id="InputName1" required>
                         </div>
                         <div class="form-group">
                             <label for="InputEmail1">Correo</label>
-                            <input type="email" name="email" class="form-control" id="InputEmail1" required="">
+                            <input type="email" name="email" class="form-control" id="InputEmail1" required>
                         </div>
                         <div class="form-group">
                             <label for="InputSubject">Asunto</label>
-                            <input type="text" name="subject" class="form-control" id="InputSubject">
+                            <input type="text" name="subject" class="form-control" id="InputSubject" required>
                         </div>
                         <div class="form-group">
                             <label for="InputTextarea">Mensaje</label>
                             <textarea name="body" class="form-control" id="InputTextarea" rows="5"
-                                      required=""></textarea>
+                                      required></textarea>
                         </div>
                         <div data-callback="callbackCaptcha" class="g-recaptcha"
                              data-sitekey="6LczJg8UAAAAACYkGYO1YsHNYmgzDNydAFidMAnF"></div>
