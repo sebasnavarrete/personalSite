@@ -513,6 +513,20 @@
                             </div><!-- /.portfolio -->
                         </div><!-- /.portfolio-bg -->
                     </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web", "mobile"]'>
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a target="_blank" href="https://www.pingpro.com/"><i class="fa fa-link"></i></a>
+                                </div><!-- /.links -->
+                                {!! HTML::image("public/assets/images/pp.jpg") !!}
+                                <div class="portfolio-info">
+                                    <h3>PingPro</h3>
+                                </div><!-- /.portfolio-info -->
+                            </div><!-- /.portfolio -->
+                        </div><!-- /.portfolio-bg -->
+                    </div><!-- /.portfolio-item -->
                 </div><!-- /#grid -->
             </div><!-- /.row -->
         </div>
