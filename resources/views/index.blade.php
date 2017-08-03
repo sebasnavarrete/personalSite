@@ -56,7 +56,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand">{!! HTML::image("public/assets/images/logo.png") !!}</a>
+                    <a class="navbar-brand">{!! HTML::image("assets/images/logo.png") !!}</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="custom-collapse">
@@ -124,7 +124,7 @@
                     <div class="download-button">
                         <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Enviar
                             Mensaje</a>
-                        {{--<a target="_blank" class="btn btn-primary btn-lg" href="public/assets/hv.pdf"><i class="fa fa-download"></i>Descargar Hoja de Vida</a>--}}
+                        {{--<a target="_blank" class="btn btn-primary btn-lg" href="assets/hv.pdf"><i class="fa fa-download"></i>Descargar Hoja de Vida</a>--}}
                     </div>
                 </div>
 
@@ -436,7 +436,7 @@
                                 <div class="links">
                                     <a target="_blank" href="http://parnam.com.co/es/"><i class="fa fa-link"></i></a>
                                 </div><!-- /.links -->
-                                {!! HTML::image("public/assets/images/parnam.png") !!}
+                                {!! HTML::image("assets/images/parnam.png") !!}
                                 <div class="portfolio-info">
                                     <h3>Parnam LTDA</h3>
                                 </div><!-- /.portfolio-info -->
@@ -450,7 +450,7 @@
                                 <div class="links">
                                     <a target="_blank" href="http://deledweb.com/"><i class="fa fa-link"></i></a>
                                 </div><!-- /.links -->
-                                {!! HTML::image("public/assets/images/deled.png") !!}
+                                {!! HTML::image("assets/images/deled.png") !!}
                                 <div class="portfolio-info">
                                     <h3>Deled</h3>
                                 </div><!-- /.portfolio-info -->
@@ -464,7 +464,7 @@
                                 <div class="links">
                                     <a target="_blank" href="http://www.soluntech.com/"><i class="fa fa-link"></i></a>
                                 </div><!-- /.links -->
-                                {!! HTML::image("public/assets/images/soluntech.png") !!}
+                                {!! HTML::image("assets/images/soluntech.png") !!}
                                 <div class="portfolio-info">
                                     <h3>Soluntech</h3>
                                 </div><!-- /.portfolio-info -->
@@ -478,7 +478,7 @@
                                 <div class="links">
                                     <a target="_blank" href="http://www.2w.net/"><i class="fa fa-link"></i></a>
                                 </div><!-- /.links -->
-                                {!! HTML::image("public/assets/images/2w.png") !!}
+                                {!! HTML::image("assets/images/2w.png") !!}
                                 <div class="portfolio-info">
                                     <h3>2w - Agencia Digital</h3>
                                 </div><!-- /.portfolio-info -->
@@ -492,7 +492,7 @@
                                 <div class="links">
                                     <a target="_blank" href="http://www.lyncros.com/es"><i class="fa fa-link"></i></a>
                                 </div><!-- /.links -->
-                                {!! HTML::image("public/assets/images/lyncros.png") !!}
+                                {!! HTML::image("assets/images/lyncros.png") !!}
                                 <div class="portfolio-info">
                                     <h3>Lyncros</h3>
                                 </div><!-- /.portfolio-info -->
@@ -506,7 +506,7 @@
                                 <div class="links">
                                     <a target="_blank" href="http://3dalcubo.com/"><i class="fa fa-link"></i></a>
                                 </div><!-- /.links -->
-                                {!! HTML::image("public/assets/images/3d.png") !!}
+                                {!! HTML::image("assets/images/3d.png") !!}
                                 <div class="portfolio-info">
                                     <h3>3D al cubo</h3>
                                 </div><!-- /.portfolio-info -->
@@ -520,7 +520,7 @@
                                 <div class="links">
                                     <a target="_blank" href="https://www.pingpro.com/"><i class="fa fa-link"></i></a>
                                 </div><!-- /.links -->
-                                {!! HTML::image("public/assets/images/pp.jpg") !!}
+                                {!! HTML::image("assets/images/pp.jpg") !!}
                                 <div class="portfolio-info">
                                     <h3>PingPro</h3>
                                 </div><!-- /.portfolio-info -->
