@@ -25,7 +25,7 @@
     <link rel="shortcut icon" href="assets/images/ico/favicon.ico">
     <title>SN Software</title>
     <!-- Web Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
 {!! HTML::style('assets/bootstrap/css/bootstrap.min.css') !!}
 <!-- Font Awesome CSS -->
@@ -101,7 +101,7 @@
 {!! HTML::script('assets/js/jquery.magnific-popup.min.js') !!}
 {!! HTML::script('assets/js/jquery.fitvids.js') !!}
 {!! HTML::script('assets/js/scripts.js') !!}
-<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+<script src="https://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 <script type="application/javascript">
     function callbackCaptcha() {
         $('#formContactSubmit').removeAttr('disabled');
