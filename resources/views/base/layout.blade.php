@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright text-center">
-                    <p>&copy; SN Software 2018.</p>
+                    <p>&copy; Sebastian Navarrete 2018.</p>
                 </div>
             </div>
         </div>

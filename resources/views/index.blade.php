@@ -131,7 +131,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 style="line-height: 40px;">¿Tienes una idea, proyecto o emprendimiento? Puedo apoyarte. Hablemos!</h2>
+                        <h2 style="line-height: 40px;">¿Tienes una idea, proyecto o emprendimiento? Puedo apoyarte.
+                            Hablemos!</h2>
                         <a href="#contact" class="btn btn-default">Enviar Mensaje</a>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -413,8 +414,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div><!-- /.row -->
         </div>
     </section><!-- End Contact Section -->
 @endsection
