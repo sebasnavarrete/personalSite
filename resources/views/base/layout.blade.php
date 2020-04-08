@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Desarrollo de software web y móvil con múltiples tecnologías. Implementación de internet of things. Amante de la tecnología.">
+    <meta name="description"
+          content="Desarrollo de software web y móvil con múltiples tecnologías. Implementación de internet of things. Amante de la tecnología.">
     <meta name="author" content="Sebastian Navarrete">
-    <meta name="keywords" content="desarrollo web, desarrollo móvil, desarrollo de páginas web, desarrollador angular, desarrollador laravel, desarrollador nodejs, emprendedor">
+    <meta name="keywords"
+          content="desarrollo web, desarrollo móvil, desarrollo de páginas web, desarrollador angular, desarrollador laravel, desarrollador nodejs, emprendedor">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/ico/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/images/ico/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/images/ico/apple-touch-icon-72x72.png">
@@ -75,7 +77,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright text-center">
-                    <p>&copy; Sebastian Navarrete 2018.</p>
+                    <p>&copy; Sebastian Navarrete</p>
                 </div>
             </div>
         </div>
