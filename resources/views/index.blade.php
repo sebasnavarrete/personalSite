@@ -56,7 +56,7 @@
                 <div class="collapse navbar-collapse" id="custom-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Sebastian</a></li>
+                        <li><a href="#about">Profile</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#works">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
