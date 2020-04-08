@@ -16,20 +16,20 @@
                 <div class="alert alert-success alert-dismissible" role="alert">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
-                    <strong>Mensaje enviado. </strong>Pronto estaremos en contacto.
+                    <strong>Message sent. </strong>We will be in touch soon.
                 </div>
             @endif
-            <div class="intro-sub">SEBASTIAN NAVARRETE</div>
-            <h1>EMPRENDEDOR</h1>
-            <h1><span>CONSULTOR - DESARROLLADOR DE SOFTWARE</span></h1>
-            <p>Soy una persona proactiva, resiliente y que siempre está aprendiendo algo nuevo. <br> Me enfoco en
-                brindar soluciones y no problemas, a través de la tecnología y la innovación busco generar valor.</p>
+            <h1>SEBASTIAN NAVARRETE</h1>
+            <h1><span>SOFTWARE DEVELOPER</span></h1>
+            <p>I consider myself a proactive and resilient person, who never stops learning.
+                <br> I am always looking to provide solutions and generating value through technology.</p>
             <div class="social-icons">
                 <ul class="list-inline">
-                    <li><a target="_blank" href="https://twitter.com/Sebas_Navarrete"><i class="fa fa-twitter"></i></a>
+                    <li>
+                        <a target="_blank" href="https://co.linkedin.com/in/sebasnavarrete">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
                     </li>
-                    <li><a target="_blank" href="https://co.linkedin.com/in/sebastián-navarrete-05877086"><i
-                                    class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div> <!-- /.social-icons -->
         </div>
@@ -55,11 +55,11 @@
 
                 <div class="collapse navbar-collapse" id="custom-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">Sebastian</a></li>
-                        <li><a href="#skills">Habilidades</a></li>
-                        <li><a href="#works">Proyectos</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#works">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div><!-- .container -->
@@ -70,7 +70,7 @@
     <!-- About Section -->
     <section id="about" class="about-section section-padding">
         <div class="container">
-            <h2 class="section-title wow fadeInUp">PERFIL PROFESIONAL</h2>
+            <h2 class="section-title wow fadeInUp">PROFESSIONAL PROFILE</h2>
 
             <div class="row">
 
@@ -78,12 +78,18 @@
                     <div class="biography">
                         <ul>
                             <li class="profile-img">{!! HTML::image("assets/images/pic.jpg") !!}</li>
-                            <li><strong>Nombre:</strong> Sebastian Navarrete</li>
-                            <li><strong>Teléfono:</strong> <a style="color: #000;" href="tel:+573134737213">(+57) 313
-                                    4737213</a></li>
-                            <li><strong>Correo:</strong>
-                                <a style="color: #000;"
-                                   href="mailto:info@sebastian-navarrete.com">info@sebastian-navarrete.com</a></li>
+                            <li>
+                                <strong>Name:</strong> Sebastian Navarrete
+                            </li>
+                            <li>
+                                <strong>Phone:</strong>
+                                <a style="color: #000;" href="tel:+573134737213">(+57) 313 4737213</a>
+                            </li>
+                            <li>
+                                <strong>Email:</strong>
+                                <a style="color: #000;" href="mailto:info@sebastian-navarrete.com">info@sebastian-navarrete.com</a>
+                                <a style="color: #000;" href="mailto:sebasnavarrete.2@gmail.com">sebasnavarrete.2@gmail.com</a>
+                            </li>
                         </ul>
                     </div>
                 </div> <!-- col-md-4 -->
@@ -91,31 +97,28 @@
                 <div class="col-md-8 col-md-pull-4">
 
                     <div class="short-info wow fadeInUp">
-                        <h3>Perfil</h3>
+                        <h3>Profile</h3>
                         <p>
-                            Ingeniero de Sistemas, proactivo, creativo, emprendedor, responsable y comprometido.
-                            Desarrollador Front-end &amp; Back-end con buenas prácticas. Siempre buscando
-                            soluciones óptimas, innovadoras y dispuesto a aprender nuevas tecnologías. Habilidades y
-                            experiencia en:
+                            I'm Systems Engineer and Project Management specialist.
+                            Fullstack developer seeking to apply good development practices, readable and clean code.
+                            Always looking for optimal and innovative solutions and ready to learn new technologies.
+                            My skills are:
                         </p>
 
                         <ul class="list-check">
-                            <li>Laravel - Codeigniter - NodeJS</li>
+                            <li>Symfony - Laravel - Codeigniter - ExpressJs</li>
                             <li>HTML5 - CSS3 - Bootstrap - Material Design</li>
-                            <li>PHP - MySQL - PostgreSQL</li>
-                            <li>C# - .NET - SQL Server</li>
-                            <li>Javascript - Jquery - Angular</li>
+                            <li>PHP - NodeJS - MySQL - PostgreSQL</li>
+                            <li>Javascript - Jquery - Angular - React</li>
+                            <li>Linux - AWS - Google Cloud</li>
+                            <li>Ionic - PowerBI - Google Data Studio</li>
                             <li>SCRUM</li>
                             <li>GIT</li>
-                            <li>Responsive Web Design - Web Performance</li>
-                            <li>Linux - AWS - Google Cloud</li>
-                            <li>Ionic</li>
                         </ul>
                     </div>
 
                     <div class="download-button">
-                        <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Enviar
-                            Mensaje</a>
+                        <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Contact me</a>
                     </div>
                 </div>
 
@@ -131,9 +134,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 style="line-height: 40px;">¿Tienes una idea, proyecto o emprendimiento? Puedo apoyarte.
-                            Hablemos!</h2>
-                        <a href="#contact" class="btn btn-default">Enviar Mensaje</a>
+                        <h2 style="line-height: 40px;">
+                            Do you have an idea or project? I can support you.
+                        </h2>
+                        <a href="#contact" class="btn btn-default">Let's talk!</a>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div>
@@ -143,12 +147,11 @@
     <!-- Skills Section -->
     <section id="skills" class="skills-section section-padding">
         <div class="container">
-            <h2 class="section-title wow fadeInUp">Habilidades</h2>
-
+            <h2 class="section-title wow fadeInUp">Skills</h2>
             <div class="row">
                 <div class="col-md-6">
                     <div class="skill-progress">
-                        <div class="skill-title"><h6>Laravel - NodeJS</h6></div>
+                        <div class="skill-title"><h6>Symfony - Laravel - Codeigniter - NodeJS</h6></div>
                         <div class="progress">
                             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95"
                                  aria-valuemin="0" aria-valuemax="100"><span>95%</span>
@@ -187,7 +190,7 @@
                         <div class="skill-title"><h6>C# - .NET - SQL Server</h6></div>
                         <div class="progress">
                             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90"
-                                 aria-valuemin="0" aria-valuemax="100"><span>90%</span>
+                                 aria-valuemin="0" aria-valuemax="100"><span>60%</span>
                             </div>
                         </div><!-- /.progress -->
                     </div><!-- /.skill-progress -->
@@ -208,7 +211,7 @@
                         </div><!-- /.progress -->
                     </div><!-- /.skill-progress -->
                     <div class="skill-progress">
-                        <div class="skill-title"><h6>Ionic - Phonegap</h6></div>
+                        <div class="skill-title"><h6>Ionic - Cordova</h6></div>
                         <div class="progress">
                             <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="100"
                                  aria-valuemin="0" aria-valuemax="100"><span>100%</span>
@@ -219,12 +222,12 @@
             </div><!-- /.row -->
 
             <div class="skill-chart text-center">
-                <h3>Otras Habilidades</h3>
+                <h3>Other Skills</h3>
             </div>
 
             <div class="row more-skill text-center">
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="chart" data-percent="90" data-color="e74c3c">
+                    <div class="chart" data-percent="80" data-color="e74c3c">
                         <span class="percent"></span>
                         <div class="chart-text">
                             <span>SCRUM</span>
@@ -232,7 +235,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="chart" data-percent="100" data-color="2ecc71">
+                    <div class="chart" data-percent="90" data-color="2ecc71">
                         <span class="percent"></span>
                         <div class="chart-text">
                             <span>GIT</span>
@@ -240,7 +243,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="chart" data-percent="90" data-color="3498db">
+                    <div class="chart" data-percent="80" data-color="3498db">
                         <span class="percent"></span>
                         <div class="chart-text">
                             <span>Linux</span>
@@ -255,12 +258,12 @@
     <!-- Works Section -->
     <section id="works" class="works-section section-padding">
         <div class="container">
-            <h2 class="section-title wow fadeInUp">Proyectos</h2>
+            <h2 class="section-title wow fadeInUp">Some of my projects / Clients</h2>
 
             <ul class="list-inline" id="filter">
-                <li><a class="active" data-group="all">Todos</a></li>
+                <li><a class="active" data-group="all">All</a></li>
                 <li><a class="active" data-group="web">Web</a></li>
-                <li><a class="active" data-group="mobile">Móvil</a></li>
+                <li><a class="active" data-group="mobile">Mobile</a></li>
             </ul>
 
             <div class="row">
@@ -364,6 +367,20 @@
                             </div><!-- /.portfolio -->
                         </div><!-- /.portfolio-bg -->
                     </div><!-- /.portfolio-item -->
+                    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "web"]'>
+                        <div class="portfolio-bg">
+                            <div class="portfolio">
+                                <div class="tt-overlay"></div>
+                                <div class="links">
+                                    <a target="_blank" href="https://www.4wplus.org"><i class="fa fa-link"></i></a>
+                                </div><!-- /.links -->
+                                {!! HTML::image("assets/images/4wplus.png") !!}
+                                <div class="portfolio-info">
+                                    <h3>4wPlus - iMMAP - OCHA</h3>
+                                </div><!-- /.portfolio-info -->
+                            </div><!-- /.portfolio -->
+                        </div><!-- /.portfolio-bg -->
+                    </div><!-- /.portfolio-item -->
                 </div><!-- /#grid -->
             </div><!-- /.row -->
         </div>
@@ -373,34 +390,33 @@
     <!-- Contact Section -->
     <section id="contact" class="contact-section section-padding">
         <div class="container">
-            <h2 class="section-title wow fadeInUp">Contacto</h2>
+            <h2 class="section-title wow fadeInUp">Contact</h2>
 
             <div class="row">
                 <div class="col-md-6">
                     <div class="contact-form">
-                        <strong>Enviar Mensaje</strong>
+                        <strong>Send Message</strong>
                         {!! FORM::open(['route' => 'send', 'method' => 'post']) !!}
                         <div class="form-group">
-                            <label for="InputName1">Nombre</label>
+                            <label for="InputName1">Name</label>
                             <input type="text" name="name" class="form-control" id="InputName1" required>
                         </div>
                         <div class="form-group">
-                            <label for="InputEmail1">Correo</label>
+                            <label for="InputEmail1">Email</label>
                             <input type="email" name="email" class="form-control" id="InputEmail1" required>
                         </div>
                         <div class="form-group">
-                            <label for="InputSubject">Asunto</label>
+                            <label for="InputSubject">Subject</label>
                             <input type="text" name="subject" class="form-control" id="InputSubject" required>
                         </div>
                         <div class="form-group">
-                            <label for="InputTextarea">Mensaje</label>
-                            <textarea name="body" class="form-control" id="InputTextarea" rows="5"
-                                      required></textarea>
+                            <label for="InputTextarea">Message</label>
+                            <textarea name="body" class="form-control" id="InputTextarea" rows="5" required></textarea>
                         </div>
                         <div data-callback="callbackCaptcha" class="g-recaptcha"
                              data-sitekey="6LczJg8UAAAAACYkGYO1YsHNYmgzDNydAFidMAnF"></div>
                         <button disabled id="formContactSubmit" type="submit" name="submit" class="btn btn-primary">
-                            Enviar
+                            Send
                         </button>
                         </form>
                     </div>
@@ -409,7 +425,7 @@
                 <div class="col-sm-6">
                     <i class="fa fa-mobile"></i>
                     <div class="contact-number">
-                        <strong>Teléfono</strong>
+                        <strong>Phone</strong>
                         <a style="color: #000;" href="tel:+573134737213">(+57) 313 4737213</a>
                     </div>
                 </div>
